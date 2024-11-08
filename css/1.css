@@ -1,0 +1,201 @@
+.html, body {
+    margin: 0px;
+    background-color: #DCDCDC;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    color:azure;
+    text-align: right;
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.footer {
+    position: absolute;
+    text-align: center;
+    padding-top: 20px;
+    background-color: black;
+    color:azure;
+    height: 60px;
+    width: 100%;
+}
+
+.introductie {
+    background-color: #ffffff;
+    padding: 22px;
+    margin: 22px;
+    width: 519;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.line {
+    background-color: black;
+}
+
+.anchor2t {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* Form container styling */
+.con1 {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+.con2 {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    display: flex;
+
+}
+
+.contact-blok {
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-form-container {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.contact-form-container h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+
+/* Container styling for the posts */
+.post-container {
+    max-width: 800px;
+    width: 100%;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for each post */
+.post {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 20px;
+}
+
+/* Image styling */
+.post img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Text content styling */
+.post-content {
+    flex: 1;
+}
+
+.post h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.post p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+ /* Stijlen voor de afbeelding */
+ .profile-image {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+.box1 {
+    display: flex;
+    justify-content: space-around;
+}
+.blog {
+    text-align: center;
+}
+
+.image-div {
+    width: 400px;
+    height: auto;
+}

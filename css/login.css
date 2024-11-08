@@ -1,0 +1,62 @@
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .login-container img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+  }
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    align-items: center;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 10px;
+  }
+  .login-container form input {
+    background: #EB4E5E;
+    color: #FFF;
+    border: 0;
+    height: 30px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  .login-container form input::-moz-placeholder {
+    color: #FFF;
+  }
+  .login-container form input::placeholder {
+    color: #FFF;
+  }
+  .login-container form .password {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  .login-container form .password input {
+    margin: 0;
+  }
+  .login-container form .button {
+    width: auto;
+    height: auto;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 50px;
+    margin: 10px;
+    background: #EB4E5E;
+    color: #FFF;
+  }
+  .login-container a {
+    color: #000;
+    font-weight: 600;
+    margin-top: 10px;
+  }/*# sourceMappingURL=login.css.map */
