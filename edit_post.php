@@ -35,7 +35,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Something went wrong. Please try again.";
     }
 
-    // Close statement
     $stmt->close();
 }
 

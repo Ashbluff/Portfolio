@@ -1,3 +1,4 @@
+<?php include "includes/backButton.php" ?>
 <?php
 include 'includes/connect.php';
 
@@ -52,10 +53,26 @@ $conn->close();
             height: auto;
             margin-top: 20px;
         }
+        .back-button {
+        background-color: black;
+        color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        }
+        a {
+            color: inherit;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        a:hover {
+            color: #555;
+        }
     </style>
 </head>
 <body>
-
 <div class="post">
     <h2><?php echo htmlspecialchars($post['title']); ?></h2>
     <p><?php echo nl2br(htmlspecialchars($post['content'])); ?></p>

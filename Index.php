@@ -30,11 +30,10 @@
 <div class="introductie">
 <h1>Welcome</h1>                     
 <br>
-<br>
 <br>                                                                           
 <p>  Hallo ik ben Davy Koopman                         
 <p>  Ik ben een software Developer in opleiding en ik hou ervan om dingen te maken.                           
-
+<p>Ik Woon in julianadorp en ik spreek Nederlands en Engels</p>
 </div>
 <div class="image">
     <br>

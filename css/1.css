@@ -185,7 +185,7 @@ h2 {
     height: auto;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
+    margin-top: 30px;
 }
 .box1 {
     display: flex;
@@ -198,4 +198,12 @@ h2 {
 .image-div {
     width: 400px;
     height: auto;
+}
+
+/* back button */
+.back-button {
+    background-color: black;
+    color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
